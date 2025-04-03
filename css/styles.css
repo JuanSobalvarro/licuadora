@@ -3,7 +3,10 @@
     background-image: url("../img/off.png");
     width: 350px;
     height: 500px;
-    position: relative; /* Make the container a positioning context */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .blender.active {
