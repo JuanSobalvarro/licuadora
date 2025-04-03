@@ -1,0 +1,21 @@
+
+.blender {
+    background-image: url("../img/off.png");
+    width: 350px;
+    height: 500px;
+    position: relative; /* Make the container a positioning context */
+}
+
+.blender.active {
+    background-image: url("../img/on.gif");
+}
+
+.blender_button {
+    width: 30px;
+    height: 30px;
+    background-color: #00FF0044;
+    position: absolute; /* Position the button relative to the .blender container */
+    bottom:90px;
+    left: 165px;
+    transform: translateX(-50%); /* Adjust for centering */
+}
